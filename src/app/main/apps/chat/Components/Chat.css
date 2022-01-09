@@ -1,0 +1,9 @@
+button.pickup {
+    right: 25px !important;
+}
+#pick {
+    display: none !important;
+}
+#noti {
+    display: none !important;
+}
