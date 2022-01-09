@@ -1,0 +1,28 @@
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login form {
+   box-shadow: 0 4px 12px 12px rgb(0 0 0 / 5%);
+   padding: 100px 30px;
+}
+
+.login form input {
+    background-color: #f1f1f1;
+    border: none;
+    width: 200px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.login form button {
+    border: none;
+    background-color: darkblue;
+    color: white;
+    font-weight: 600;
+    width: 100%;
+    padding: 8px;
+    margin-top: 15px;
+}

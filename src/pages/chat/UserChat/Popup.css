@@ -1,0 +1,186 @@
+.chat-container {
+    position: relative;
+}
+
+* {box-sizing: border-box;}
+
+.open-button {
+  background-color: rgb(0, 30, 60);
+  color: white;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.open-button .anticon {
+  font-size: 28px;
+}
+
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  box-shadow: 1px 4px 12px 15px rgb(0 0 0 / 5%);
+  z-index: 9;
+  width: 400px;
+  overflow: hidden;
+  /* padding: 15px; */
+  padding-top: 0px;
+  padding-right: 0px;
+  border-radius: 15px;
+}
+
+
+
+.chat-container .form-container .input-container {
+  display: flex;
+  /* align-items: center; */
+  gap: 2px;
+  margin-bottom: 10px;
+}
+
+.chat-container .form-container .input-container .upload .anticon {
+    /* font-size: 23px; */
+    padding: 6px;
+}
+
+.chat-popup .input-container .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.close-container  {
+  background-color: #001529;
+  color: white;
+  border-top-left-radius: 15px !important;
+  border-top-right-radius: 15px !important;
+}
+
+.close-container .close-btn-cont {
+  display: flex;
+  justify-content: end;
+  align-items: flex-start;
+}
+.close-container .text-you {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -28px;
+  padding-bottom: 15px;
+  font-weight: 600;
+  font-size: 19px;
+}
+
+.close-container .text-you .anticon {
+  padding-right: 10px;
+  font-size: 28px;
+}
+
+
+.close-container .btn {
+  border: none;
+  cursor: pointer;
+  background-color: #001529;
+  color: #FFFFFF;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 19px;
+  margin-bottom:10px;
+  margin-bottom: 20px;
+}
+
+
+.chat-container .form-container {
+   bottom: 2px;
+}
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+.chat-container {
+  width: 800px !important;
+  padding: 10px;
+  background-color: white;
+}
+
+.chat-container .body {
+  height: 60vh !important;
+  overflow-y: auto !important;
+}
+
+
+
+.chat-popup .message-container {
+  width: 100%;
+}
+
+.chat-popup .message-container .each {
+  margin-top: 10px;
+  margin-bottom: 4px;
+  margin-left: 10px;
+}
+
+.chat-popup .message-container .receiver {
+  background-color: #f3f3f3;
+  padding: 10px;
+  width: 50%;
+  border-radius: 32px;
+}
+
+.chat-popup .message-container .sender {
+  background-color: rgb(221, 245, 253);
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 32px;
+}
+
+.chat-popup .message-container .message {
+  max-width: 100px;
+  word-wrap: break-word;
+}
+
+.chat-popup .message-container .sender {
+  margin-left: 50%;
+}
+
+.chat-popup .message-container .d-flex {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+
+.chat-popup .message-container .d-flex .time {
+  opacity: .5;
+  font-size: 10px;
+  margin-bottom: 0px;
+}
+
+.chat-container .logo-cont {
+  text-align: center;
+}
+
+.chat-container .logo-cont img {
+    width: 30%;
+    height: 60px;
+    text-align: center;
+}
+
+.chat-container .logo-cont p {
+  margin-top: 15px;
+  font-style: italic;
+  font-style: 8px;
+  color: #918d8d;
+}

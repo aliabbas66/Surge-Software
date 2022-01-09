@@ -1,0 +1,33 @@
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 23px;
+}
+
+.signup form input {
+    background: #f1f1f1;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 23px;
+}
+
+.signup button {
+    width: 100%;
+    background-color: darkblue;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

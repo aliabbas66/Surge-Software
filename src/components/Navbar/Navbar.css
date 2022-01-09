@@ -1,0 +1,23 @@
+nav {
+   background: rgb(17, 17, 17);
+}
+
+nav a {
+    color: #FFFFFF;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+nav .active {
+    border-bottom: 4px solid rgb(43, 43, 255);
+    border-radius: 1px;
+}
+nav > div {
+    display: flex;
+    gap: 43px;
+    align-items: center;
+}
+
+nav div img.logo {
+    width: 100px;
+}
