@@ -1,0 +1,19 @@
+{
+  "name": "simple-node-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kris Hill",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "facebook-nodejs-business-sdk": "^12.0.1"
+  },
+  "devDependencies": {
+    "joi": "^17.5.0"
+  }
+}
