@@ -1,0 +1,16 @@
+button.pickup {
+    right: 25px !important;
+}
+#pick {
+    display: none !important;
+}
+#noti {
+    display: none !important;
+}
+#updateImg {
+    width: 300px;
+    height: 300px;
+}
+.fixStyling {
+    width: 100% !important;
+}
