@@ -1,0 +1,129 @@
+
+.uploadFiles {
+    background: #fafafa;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 6px;
+    border-bottom: 1px solid #8080805c;
+}
+.uploadeCLose {
+    width: 25px;
+    height: 25px;
+    border: 1px solid red;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.uploadeCLose svg {
+    font-size: 15px;
+}
+.fileName {
+    width: 70px;
+}
+h6.uploadFileName {
+    font-weight: 800;
+    color: gray;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+h6.maxSize {
+    color: red;
+}
+.deleteFile svg {
+    color: gray;
+}
+.uploadBox {
+    height: 150px;
+    border-left: 1px solid #80808033;
+    position: relative;
+}
+
+/* Image in CHat */
+
+.imageInlineParent {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.imageInline {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 8px;
+    border: 1px solid #ffffff2b;
+}
+.imageInlineBox {
+    width: 100px;
+    height: 100px;
+    padding: 2px;
+}
+#smBubble {
+   /* background: #474d56 !important;*/
+    width: 210px !important;
+    padding: 5px !important;
+}
+.imageOne {
+    width: 100%;
+}
+#imgOneFifty {
+    width: 50% !important;
+}
+
+/*  UPLOADE FILE CSS......................................................................*/
+
+.imgPreview {
+    width: 80px;
+    border: 2px solid #f6f7f9;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.imgPreview img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.previewBox {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 0;
+}
+.imgPreviewBox {
+    display: flex;
+    overflow: scroll;
+    width: 75%;
+}
+.image-back {
+    margin-left: -48px;
+}
+.imagePlus svg {
+    font-size: 35px;
+    color: rgb(17, 24, 39);
+}
+.imgPreview svg {
+    position: absolute;
+    top: 3px;
+    color: white;
+    font-size: 16px;
+    border: 1px solid red;
+    border-radius: 100px;
+    box-shadow: 0px 0px 7px 1px #ff5722;
+    background: red;
+    left: 3px;
+}
+.imagePlus {
+    justify-content: center;
+    border-left: 1px solid gray;
+    display: flex;
+    height: 12vh;
+    align-items: center;
+    width: 25%;
+}
