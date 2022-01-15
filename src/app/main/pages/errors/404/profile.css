@@ -1,0 +1,20 @@
+.gggg form {
+    width: 65%;
+    padding: 15px;
+    background: white;
+    box-shadow: 0px 0px 8px 1px #0000001f;
+    height: 80vh;
+    overflow-y: scroll;
+    margin: auto;
+}
+img#updateImg {
+    width: 130px;
+    height: 130px;
+    margin: 0 auto 40px;
+    border-radius: 100px;
+}
+.gggg {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
