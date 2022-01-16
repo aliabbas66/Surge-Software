@@ -1,0 +1,454 @@
+html, body, div#root, .App {
+  height: 100% !important;
+}
+
+.login-center, .login-center .row {
+  height: 100%;
+}
+.full, .sidebars, .itemss {
+  height: 100%;
+  overflow: hidden;
+}
+.hundred {
+  height: 100%;
+}
+.tab-content {
+  height: 73vh !important;
+}
+
+
+.loginForm {
+  display: flex;
+  align-items: center;
+}
+.login {
+  width: 100%;
+}
+.smLogo {
+  margin: auto;
+  margin-bottom: 21px;
+  width: 180px;
+}
+.labels {
+  color: rgb(99, 114, 125);
+  font-weight: 500;
+  font-size: 14px;
+  margin-right: 4px;
+}
+input#formBasicEmail {
+  background: rgb(255, 255, 255);
+  color: rgb(45, 47, 49);
+  padding: 0px 16px;
+  font-family: inherit;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid rgb(173, 182, 190);
+  font-size: 16px;
+  height: 40px;
+}
+.surge-button {
+  border: 0px;
+  border-radius: 3px;
+  height: 40px;
+  padding: 0px 16px;
+  line-height: 1;
+  width: 100%;
+  position: relative;
+  background-color: rgb(76, 118, 224);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: inline-flex;
+  vertical-align: top;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  outline: none;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.15s ease-in-out 0s;
+}
+.kitIso {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 30px;
+  padding: 0px 40px;
+  text-align: center;
+}
+a#forgotPasswordText {
+  text-decoration: none;
+  color: rgb(76, 118, 224);
+}
+
+
+
+
+
+
+.bg {
+  background: blue;
+}
+.logos {
+  width: 100%;
+  height: auto;
+  display: flex;
+  border: 0 !important;
+  background-color: transparent !important;
+}
+.myLogo {
+  width: 100px;
+}
+.white {
+  color: white !important;
+}
+.navbarss {
+  background-color: #3f6fea !important;
+}
+.sidePadding {
+  padding: 0px 20px;
+  background: #2d62eb;
+}
+.padd-right {
+  padding-right: 40px;
+}
+.navItem {
+  padding-left: 15px;
+}
+.active-navItem {
+  background-color: #57bfc5;
+  border: 1px solid #57bfc5;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+}
+.language button {
+  border-radius: 100px;
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+svg.bells {
+  font-size: 24px;
+  margin-left: 30px;
+}
+.bell {
+  position: relative;
+}
+h6.notification {
+  position: absolute;
+  background: #f44336;
+  color: white;
+  font-size: 11px;
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -5px;
+  right: -7px;
+}
+svg.setting {
+  font-size: 24px;
+  margin: 0 30px;
+}
+
+.tab-nav {
+  background: #2d62eb;
+  padding: 8px 6px !important;
+}
+.tab-nav li button {
+  color: white !important;
+}
+.tab-nav li button {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.profile {
+  width: 50px;
+  height: 50px;
+}
+.user-profile {
+  display: flex;
+}
+span.user-name {
+  font-weight: 600;
+  color: white;
+  font-size: 12px;
+}
+.active button {
+  background: transparent;
+  border: 0;
+  color: white;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85px;
+  padding-left: 0;
+}
+
+.sidePadding {
+  padding-top: 40px;
+}
+.sidebar {
+  padding: 10px 12px;
+}
+.sidebar h6 {
+  margin-bottom: 0;
+}
+.items {
+  font-weight: bold;
+  font-size: 15px;
+  background-color: blue;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  background-color: #57bfc5 !important;
+  border-color: #57bfc5 #57bfc5 #57bfc5 !important;
+  border-radius: 100px;
+}
+.tabs {
+  background-color: #e1e9e1;
+  padding: 10px 30px 0 !important;
+}
+.bg-white {
+  background-color: white;
+  border-radius: 12px;
+}
+.bi-search form svg {
+  color: gray;
+}
+input#search {
+  border: 0;
+  padding-left: 10px;
+  font-size: 14px;
+  width: 100%;
+}
+.bi-search {
+  border-bottom: 1px solid #80808038;
+  padding-bottom: 7px;
+}
+.bi-search form {
+  display: flex;
+  align-items: center;
+}
+.contactSidebar {
+  border-right: 2px solid #8080806b;
+}
+.seeContact {
+  padding: 5px 0px;
+}
+.contactUserImage {
+  width: 40px;
+  height: 40px;
+  background: pink;
+  display: flex;
+  border-radius: 100px;
+  position: relative;
+}
+.contactUserImage img {
+  border: 0;
+  background-color: transparent;
+}
+.contactUserImage h1 {
+  position: absolute;
+  background: #448b23;
+  width: 8px;
+  height: 8px;
+  color: transparent;
+  border-radius: 100px;
+  top: 6px;
+}
+.contacts {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.contacts h6 {
+  color: black;
+  font-size: 14px;
+  font-weight: initial;
+  padding-left: 6px;
+  line-height: 1;
+}
+.userDetail {
+  padding-top: 10px;
+}
+.number {
+  background-color: #059395;
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+}
+.images {
+  width: 40px;
+  height: 40px;
+  background: pink;
+  display: flex;
+  border-radius: 100px;
+}
+.left h6, .right h6 {
+  font-weight: lighter;
+  font-size: 12px;
+  color: gray;
+  padding: 0 8px;
+  margin-bottom: 0;
+}
+.left, .right {
+  display: flex;
+  align-items: center;
+}
+.right {
+  flex-direction: row-reverse;
+}
+.left span, .right span {
+  color: gray;
+  font-size: 11px;
+  font-weight: lighter;
+}
+p.message {
+  color: black;
+  font-size: 13px;
+  font-weight: lighter;
+  background: #e9f2fe;
+  padding: 10px;
+  border-radius: 9px;
+  margin-top: 8px;
+  width: fit-content;
+}
+.lefty p.message {
+  margin-left: 45px;
+}
+.righty .message {
+  background: #eaf1f7;
+  margin-left: auto;
+  margin-right: 45px;
+}
+.right .images {
+  display: flex;
+  order: 1;
+}
+.right h6 {
+  display: flex;
+  order: 3;
+}
+.right span {
+  display: flex;
+  order: 2;
+  padding-right: 8px;
+}
+.notifi {
+  display: none !important;
+}
+img.chatImage {
+  width: 50%;
+  height: 50%;
+  margin-top: 6px;
+}
+.leftImage {
+/*  margin-right: auto;*/
+  margin-left: 47px;
+}
+.rightImage {
+  margin-left: auto;
+  margin-right: 47px;
+}
+.typeHere {
+  border: 1px solid gray;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  width: 95%;
+  background: white;
+  position: absolute;
+  bottom: 0;
+}
+.sendButton {
+  display: flex;
+  align-items: center;
+  width: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+button.send {
+  border: navajowhite;
+  background: transparent;
+  color: #2d62eb;
+  font-size: 13px;
+}
+.black {
+  color: black !important;
+}
+.lastMessage {
+  color: black;
+  line-height: 1;
+  padding-left: 6px;
+  font-size: 12px;
+}
+input#types {
+  border: 0;
+  font-size: 14px;
+  width: 100%;
+  padding-right: 8px;
+}
+input#types:focus {
+  border: 0;
+  outline: none;
+}
+.typeHere svg {
+  color: gray;
+  font-size: 22px;
+}
+input#pick {
+  display: none;
+}
+
+
+
+
+.chatBox {
+  position: relative;
+  height: 100%;
+}
+.scrolls {
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-bottom: 50px;
+  padding-right: 10px;
+}
+.help {
+  background: #7595e7;
+  margin-top: 10px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
