@@ -1,0 +1,93 @@
+
+
+.uploadFiles {
+    background: #e6e7eb;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 2px 15px;
+    border-bottom: 1px solid #8080805c;
+    border-radius: 10px;
+}
+.none {
+    display: block !important;
+}
+.uploadeCLose {
+    width: 25px;
+    height: 25px;
+    border: 1px solid red;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.uploadeCLose svg {
+    font-size: 15px;
+}
+.fileName {
+    padding-left: 15px;
+}
+.deleteFile {
+    display: block;
+    margin-left: auto;
+}
+h6.uploadFileName {
+    font-weight: 800;
+    color: gray;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.parnt {
+    height: 100% !important;
+}
+h6.maxSize {
+    color: red;
+}
+.deleteFile svg {
+    color: gray;
+}
+.uploadBox {
+  /*  height: 130px;*/
+    border-left: 1px solid #80808033;
+    position: fixed;
+    background: #ffffff;
+    padding: 15px;
+    width: 80%;
+    bottom: 68px;
+    display: flex;
+    justify-content: space-between;
+}
+.MuiDropzoneArea-root {
+    padding: 0 15px;
+}
+button.sendBtn {
+    color: #1dbf73;
+    cursor: pointer;
+    padding-right: 5px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.uploasSend {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+.uploadPalent {
+    width: 75%;
+    border-right: 1px solid #80808078;
+    padding-right: 15px;
+   /* overflow-y: scroll;*/
+}
+
+@media screen and (max-width: 1336px) {
+    .uploadBox {
+        width: 74%;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .uploadBox {
+        width: 100%;
+    }
+}

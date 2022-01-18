@@ -1,0 +1,30 @@
+.popup {
+    position: fixed;
+    background: #1b23309e;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 10px;
+}
+form.popupForm {
+    background: white;
+    padding: 15px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+}
+input#submit {
+    background: black;
+    color: white;
+    margin-top: 15px;
+    padding: 7px;
+    border-radius: 100px;
+}
+form.popupForm p {
+    margin-bottom: 15px;
+}

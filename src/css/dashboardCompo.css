@@ -1,0 +1,51 @@
+.bg {
+    background: blue;
+  }
+  .logos {
+    width: 100%;
+    height: auto;
+    display: flex;
+    border: 0 !important;
+    background-color: transparent !important;
+  }
+  .myLogo {
+    width: 100px;
+  }
+  .white {
+    color: white !important;
+  }
+  .navbarss {
+    background-color: #3f6fea !important;
+  }
+  .language button {
+    border-radius: 100px;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  svg.bells {
+    font-size: 24px;
+    margin-left: 30px;
+  }
+  .bell {
+    position: relative;
+  }
+  h6.notification {
+    position: absolute;
+    background: #f44336;
+    color: white;
+    font-size: 11px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -5px;
+    right: -7px;
+  }
+  svg.setting {
+    font-size: 24px;
+    margin: 0 30px;
+  }
